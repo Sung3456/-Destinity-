@@ -16,11 +16,11 @@
    - You will get a session ID in WhatsApp, copy the ID only.
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**p
 </p>
-🌟 𝗗𝗘𝗫𝗧𝗘𝗥 𝗪𝗘𝗕 𝗦𝗜𝗧𝗘 🌟
+🌟 𝗪𝗘𝗕 𝗦𝗜𝗧𝗘 🌟
 
 <a href="https://web-developer-835fc13471d9.herokuapp.com/"><img src="https://img.shields.io/badge/DEXTER-WEB%20SITE-red" alt="DEXTER WEB SITE" width="250"></a>
 
-**`𝗗𝗘𝗫𝗧𝗘𝗥 𝗠𝗗 𝗕𝗢𝗧`**
+**`Destinity`**
 
 ##  PAIRING CODE SCAN
 
