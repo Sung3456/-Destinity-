@@ -48,10 +48,10 @@ Contributions to Dexter-Md are welcome! If you have ideas for new features, impr
 
 ## License
 
-The DEXTER-MD is released.
+The ☆♤Destinity☆♤ is released.
 
-Enjoy the diverse features of the DEXTER-MD  to enhance your conversations and make your WhatsApp experience more interesting!
+Enjoy the diverse features of the ☆♤Destinity☆♤  to enhance your conversations and make your WhatsApp experience more interesting!
 
 ## Developer:
-- [**WhatsApp**](https://wa.me/94789958225)
+- [**WhatsApp**](https://wa.me/22501571902)
 
