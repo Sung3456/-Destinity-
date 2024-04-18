@@ -1,9 +1,9 @@
 {
-  "name":"DEXTER-V1-MD",
-  "description":"An easy and simple WhatsApp bot developed by France King",
+  "name":"☆♤Destinity☆♤",
+  "description":"An easy and simple WhatsApp bot developed by •¤Sung Jinwoo◇",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/57c3083b60b2bea6ec132.jpg",
-  "repository":"https://github.com/Purnageethanajana/DEXTER-V1-MD/",
+  "repository":"https://github.com/Sung3456/Destinity/",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"DEXTER-V1-MD",
+      "value":"☆♤Destinity☆♤",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
-      "description":"📌 Dont change ",
-      "value":"https://telegra.ph/file/e716c8220c20e3845f2cf.mp4",
+      "description":"put a url image or video télégramme",
+      "value":"https://telegra.ph/file/1e5de46792f00e445f4d9.mp4",
       "required":false
        
      },
@@ -81,7 +81,7 @@
     
     "desc": "📌 Dont chchange (වෙනස් කරන්න එපා)",
     "required":false,
-    "value": "94789958225"
+    "value": "22501571902"
   },
     "WARN_COUNT":
   {
