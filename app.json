@@ -3,7 +3,7 @@
   "description":"An easy and simple WhatsApp bot developed by •¤Sung Jinwoo◇",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/57c3083b60b2bea6ec132.jpg",
-  "repository":"https://github.com/Sung3456/Destinity/",
+  "repository":"https://github.com/Sung3456/-Destinity-/tree/main?tab=readme-ov-file",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -74,7 +74,7 @@
     
     "desc": "📌 Dont chchange (වෙනස් කරන්න එපා)",
     "required": false,
-    "value": "DEXTER"
+    "value": "•¤Sung Jinwoo♤"
   },
     "OWNER_NUMBER":
   {
@@ -96,7 +96,7 @@
     "value": "yes"
   },
   "PRESENCE":{
-    "description":"📌 ALWAYS ONLINE 1 /📌 TYPING 2 /📌 RECORDING AUDIO.... 3🌟 ඔයාට ඔන අංකය type කරන්න 🌟",
+    "description":"ALWAYS ONLINE 1 /TYPING 2 /RECORDING AUDIO.... 3",
     "value":"",
     "required": false
   }  
