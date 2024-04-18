@@ -18,7 +18,7 @@
 </p>
 🌟 𝗪𝗘𝗕 𝗦𝗜𝗧𝗘 🌟
 
-<a href="https://web-developer-835fc13471d9.herokuapp.com/"><img src="https://img.shields.io/badge/DEXTER-WEB%20SITE-red" alt="DEXTER WEB SITE" width="250"></a>
+<a href="https://web-developer-835fc13471d9.herokuapp.com/"><img src="https://img.shields.io/badge/DEXTER-WEB%20SITE-red" alt="DESTINITY WEB SITE" width="250"></a>
 
 **`Destinity`**
 
