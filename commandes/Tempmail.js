@@ -13,7 +13,7 @@ zokou({ nomCom: "tempmail", reaction: "😾", nomFichier: __filename }, async (d
 console.log("mon test");
 /*module.exports.commande = () => {
   var nomCom = ["test","t"]
-  var reaction="📌 "
+  var reaction="👍 "
   return { nomCom, execute,reaction }
 };
 
