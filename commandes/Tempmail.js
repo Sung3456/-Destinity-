@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "tempmail", reaction: "😾", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = '*DEXTER-MD* Temporary emails,Powered by *France King* \n\n ' + "Click the link below to create unlimited TEMPORARY Emails. Powered by *DEXTER-MD.*";
+    let z = '*☆♤Destinity☆♤* Temporary emails,Powered by *France King* \n\n ' + "Click the link below to create unlimited TEMPORARY Emails. Powered by *☆♤Destinity☆♤*";
     let d = ' https://email10min.com';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/7a8bf9f622dd6ccb403df.mp4';
