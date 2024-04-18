@@ -55,12 +55,12 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "💞" }, async (de
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "📌 Dexter ", numero: "94789958225" },
+      { nom: "☆♤Destinity☆♤", numero: "22501571902" },
       { nom: "📌 dexter yt", numero: "https://youtube.com/@Dextertoola999" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 *Welcome to DEXTER-MD* here is the developer contact numbers 👇\n\n";
+    let message = "*Welcome to ☆♤Destinity☆♤* here is the developer contact numbers 👇\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("⚔ *DEXTER SHARE LINKN* ⚔")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/94789958225`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/22501571902`},{quoted :ms})
 
 })
 
