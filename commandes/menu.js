@@ -31,7 +31,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝐃𝐄𝐗𝐓𝐄𝐑-𝐌𝐃✧────◆
+╭────✧☆♤Destinity☆♤✧────◆
 │♨ *Préfix* : ${s.PREFIXE}
 │♨ *User* : ${s.OWNER_NAME}
 │♨ *Mode* : ${mode}
@@ -40,7 +40,7 @@ const date = moment().format('DD/MM/YYYY');
 │♨ *Time* : ${temps} 
 │♨ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │♨ *Platform* : ${os.platform()}
-│♨ *Developer* : 𝐃𝐄𝐗𝐓𝐄𝐑
+│♨ *Developer* : •¤Sung Jinwoo◇
 │♨ *Version* : 𝐯7.5.25
 ╰─────✧The-GOAT✧─────◆ \n\n`;
 
@@ -54,7 +54,7 @@ const date = moment().format('DD/MM/YYYY');
         menuMsg += `*╭────☢️* *${cat}* *☢️⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
- *|♦️* ${cmd}`;
+ *|★* ${cmd}`;
         }
         menuMsg += `
 *╰═════════════⊷* \n`
@@ -64,7 +64,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌DEXTER©🐐²0²⁴*                                         
+  *☆♤Destinity☆♤*                                         
 *╰═════════════⊷*
 `;
 
@@ -72,7 +72,7 @@ const date = moment().format('DD/MM/YYYY');
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "☆♤Destinity☆♤ un bot développé par Sung Jinwoo" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -82,7 +82,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌Dexter*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*☆♤Destinity☆♤*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
