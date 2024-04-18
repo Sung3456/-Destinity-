@@ -51,7 +51,7 @@ const date = moment().format('DD/MM/YYYY');
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────☢️* *${cat}* *☢️⊷*`;
+        menuMsg += `*╭────💫* *${cat}* *☢️⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
  *|★* ${cmd}`;
@@ -72,7 +72,7 @@ const date = moment().format('DD/MM/YYYY');
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "☆♤Destinity☆♤ un bot développé par Sung Jinwoo" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "☆♤Destinity☆♤ un bot développé par •¤Sung Jinwoo◇" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
