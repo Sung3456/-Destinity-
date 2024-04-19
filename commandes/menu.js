@@ -42,16 +42,16 @@ const date = moment().format('DD/MM/YYYY');
 │♨ *Platform* : ${os.platform()}
 │♨ *Developer* : •¤Sung Jinwoo◇
 │♨ *Version* : 𝐯7.5.25
-╰─────✧La légende✧─────◆ \n\n`;
+╰─────✧THE GOAT✧─────◆ \n\n`;
 
   let menuMsg=`  
 
-*DEXTER-MD COMMANDS :*
+*☆♤Destinity☆♤ COMMANDS :*
 ◇                             ◇
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────💫* *${cat}* *☢️⊷*`;
+        menuMsg += `*╭────💫* *${cat}* *💫⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
  *|★* ${cmd}`;
