@@ -36,7 +36,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*DEXTER-MD SONG DOWNLOADING......*_\n\n`
+_*☆♤Destinity☆♤ SONG DOWNLOADING......*_\n\n`
        }
 
       
@@ -110,7 +110,7 @@ zokou({
 *Url :* _${Element.url}_
 
 
-_*DEXTER-MD VIDEO DOWNLOADING......*_\n\n`
+_*☆♤Destinity☆♤ VIDEO DOWNLOADING......*_\n\n`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
