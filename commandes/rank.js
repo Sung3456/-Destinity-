@@ -5,12 +5,12 @@ const {getMessagesAndXPByJID,getBottom10Users} = require("../bdd/level");
 
 function get_level_exp(xp) {
     const levelThresholds = [
-        { level: 1, xpThreshold: ☆500☆ },
-        { level: 2, xpThreshold: ¤1000¤ },
-        { level: 3, xpThreshold: ★2000★ },
-        { level: 4, xpThreshold: ●4000● },
-        { level: 5, xpThreshold: ■7000■ },
-        { level: 6, xpThreshold: ♡10000♡ },
+        { level: 1, xpThreshold: 500 },
+        { level: 2, xpThreshold: 1000 },
+        { level: 3, xpThreshold: 2000 },
+        { level: 4, xpThreshold: 4000 },
+        { level: 5, xpThreshold: 7000 },
+        { level: 6, xpThreshold: 10000 },
         { level: 7, xpThreshold: 15000 },
         { level: 8, xpThreshold: 20000},
         { level: 9, xpThreshold: 25000},
@@ -210,7 +210,7 @@ zokou( {
          }
     
     
-        let  msg = `
+         let  msg = `
 ┏━━━┛ ☆♤Destinity Ranking┗━━━┓
          
     *👤Name👤 :* @${auteurMsgRepondu.split("@")[0]}
