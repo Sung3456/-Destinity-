@@ -670,7 +670,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `◇DEXTER-MD◇
+            let msg = `◇☆♤Destinity☆♤◇
 `;
              
             let membres = group.participants;
@@ -692,7 +692,7 @@ ${metadata.desc}
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = ` *Goodbye Frinds group owner මෙත දැනුවත් කිරිමකි එක් පුද්ගලයෙක් group එකෙන් left උවා 📌 [POWER BY DEXTER]*\n`;
+            let msg = ` *Goodbye Frinds group owner මෙත දැනුවත් කිරිමකි එක් පුද්ගලයෙක් group එකෙන් left උවා 📌 [POWER BY •¤Sung Jinwoo◇]*\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
@@ -861,10 +861,10 @@ ${metadata.desc}
 *『☆♤Destinity☆♤ is CONNECTED』*
 
      
-║❒Creator: *☆♤Destinity☆♤*
+║❒Creator: *Sung*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
-║❒Created on : *22.2.2024*
+║❒Created on : *20.4.2024*
 ║❒Total Commands : ${evt.cm.length}︎
 
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
