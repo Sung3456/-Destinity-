@@ -688,7 +688,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
 ${metadata.desc}
 
-📌Powred by *DEXTER King®🐐*`;
+📌Powred by *☆♤Destinity☆♤*`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -874,7 +874,7 @@ ${metadata.desc}
 https://whatsapp.com/channel/0029VaOoODA65yDHLCqskX11_
 
 ║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/KGtgYAU9Qv14v5iU0qBUbV 
+https://chat.whatsapp.com/Lq92e9EOJXQDxk44rb1UJ6
 
 
               *☆♤Destinity☆♤*`;
