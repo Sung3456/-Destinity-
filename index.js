@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [FranceKing, FranceKing1,FranceKing2,FranceKing3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{DEXTER-MD}...[][]");
+            console.log("\t [][]...{☆♤Destinity☆♤}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from the group : " + nomGroupe);
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Dexter-Md',
+                                        pack: '☆♤Destinity☆♤',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Dexter-Md',
+                pack: '☆♤Destinity☆♤',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -858,10 +858,10 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『DEXTER-MD is CONNECTED』*
+*『☆♤Destinity☆♤ is CONNECTED』*
 
      
-║❒Creator: *DEXTER*
+║❒Creator: *☆♤Destinity☆♤*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
 ║❒Created on : *22.2.2024*
@@ -870,14 +870,14 @@ ${metadata.desc}
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
  
-║❒ _Join *DEXTER-MD* Channel for Updates_
+║❒ _Join *☆♤Destinity☆♤* Channel for Updates_
 https://whatsapp.com/channel/0029VaOoODA65yDHLCqskX11_
 
 ║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
 https://chat.whatsapp.com/KGtgYAU9Qv14v5iU0qBUbV 
 
 
-              *DEXTER-MD*`;
+              *☆♤Destinity☆♤*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
