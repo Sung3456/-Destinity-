@@ -17,7 +17,7 @@ const sleep =  (ms) =>{
     const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
   
     if (!superUser) {
-      repondre('Only Mods can use this command'); return;
+      repondre('Only owner can use this command'); return;
     }
     //const apikey = conf.APILOLHUMAIN
   
@@ -47,7 +47,7 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   Dexter-stickers-dl
+      let msg = `   •¤Sung Jinwoo◇-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
@@ -97,7 +97,7 @@ const sleep =  (ms) =>{
 zokou({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, auteurMessage, superUser, auteurMsgRepondu, msgRepondu } = commandeOptions;
 
-  if (!superUser) { repondre("only modds can use this command"); return };
+  if (!superUser) { repondre("only owner can use this command"); return };
 
   if (!arg[0]) { repondre('Please enter the name of the group to create'); return };
   if (!msgRepondu) { repondre('Please mention a member added '); return; }
@@ -106,7 +106,7 @@ zokou({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) =
 
   const group = await zk.groupCreate(name, [auteurMessage, auteurMsgRepondu])
   console.log("created group with id: " + group.gid)
-  zk.sendMessage(group.id, { text: `Bienvenue dans ${name}` })
+  zk.sendMessage(group.id, { text: `Welcome to group ${name}` })
 
 });
 
