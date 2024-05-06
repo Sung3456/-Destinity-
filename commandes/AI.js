@@ -83,7 +83,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   
       // Regrouper les arguments en une seule chaîne séparée par "-"
       const question = arg.join(' ');
-      const response = await axios.get(await fetch(`https://sandipbaruwal.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
+      const response = await axios.get(`https://sandipbaruwal.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
 
       
       const answer = response.data.answer;
