@@ -87,16 +87,4 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
       
       const answer = response.data.answer;
-      if (data) {
-        repondre(data.data);
-      } else {
-        repondre("Error during response generation.");
-      }
-    } catch (error) {
-      console.error('Erreur:', error.message || 'Une erreur s\'est produite');
-      repondre("Oops, an error occurred while processing your request.");
-    }
-  });
-
-
-  
+      await message.reply(answer); } catch (error) { console.error("Error:", error.message); }
