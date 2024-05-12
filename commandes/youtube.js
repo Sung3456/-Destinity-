@@ -131,7 +131,7 @@ _*☆♤Destinity☆♤ VIDEO DOWNLOADING......*_\n\n`
 
       fileStream.on('finish', () => {
         // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*DEXTER-MD*", gifPlayback: false }, { quoted: ms });
+        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*☆♤Destinity☆♤*", gifPlayback: false }, { quoted: ms });
       });
 
       fileStream.on('error', (error) => {
