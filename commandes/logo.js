@@ -4,7 +4,7 @@ zokou({ nomCom: "hacker",
     categorie: "Logo", reaction: "👨🏿‍💻" }, async (origineMessage, zk, commandeOptions) => {
     const { prefixe, arg, ms, repondre } = commandeOptions;
     if (!arg || arg == "") {
-        repondre("*__Exemple : * " + prefixe + "DEXTER LOGO");
+        repondre("*__Exemple : * " + prefixe + "☆♤Destinity☆♤ LOGO");
         return;
     }
     try {
