@@ -42,7 +42,7 @@ const date = moment().format('DD/MM/YYYY');
 │♨ *Platform* : ${os.platform()}
 │♨ *Developer* : •¤Sung Jinwoo◇
 │♨ *Version* : 𝐯7.5.25
-╰─────✧THE-GOAT✧─────◆ \n\n`;
+╰─────✧LEGEND✧─────◆ \n\n`;
 
   let menuMsg=`  
 
