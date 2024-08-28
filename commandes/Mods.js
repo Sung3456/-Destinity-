@@ -47,7 +47,7 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   •¤Sung Jinwoo◇-stickers-dl
+      let msg = `   Dokja.L-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
