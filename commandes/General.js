@@ -55,8 +55,8 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "💞" }, async (de
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "☆♤Destinity☆♤", numero: "22501571902" },
-      { nom: "📌 dexter yt", numero: "https://youtube.com/@Dextertoola999" },
+      { nom: "☆♤Destinity☆♤", numero: "2250100113543" },
+      { nom: "📌 Dokja.L", numero: "https://youtube.com/@Dextertoola999" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
