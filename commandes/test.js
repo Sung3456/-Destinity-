@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "test", reaction: "😌", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = 'Salut je suis ☆♤Destinity☆♤ \n\n ' + 'je suis un bot Whatsapp Multi-appareil ';
+    let z = 'Salut je suis ☆♤Destinity☆♤ \n\n ' + 'je suis un bot Whatsapp Multi-appareil créé par Dokja.L ';
     let d = ' developpé par •¤Sung Jinwoo◇';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/fc277237084a7a545d58f.jpg';
